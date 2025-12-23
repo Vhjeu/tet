@@ -268,3 +268,87 @@ body {
   width: 35px;
   height: auto;
 }
+/* =========================
+   MOBILE OPTIMIZE (FIX)
+========================= */
+
+/* Tablet & mobile chung */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .cay-dao {
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .banh-chung {
+    width: 30%;
+    top: 72%;
+    left: 8%;
+  }
+
+  .lixi {
+    width: 3.5rem; /* dễ bấm hơn */
+  }
+
+  .card {
+    width: 90%;
+    max-width: 360px;
+    padding: 16px;
+  }
+
+  .message {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile nhỏ (iPhone SE, Android nhỏ) */
+@media (max-width: 480px) {
+  .cay-dao {
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .banh-chung {
+    width: 35%;
+    top: 78%;
+    left: 5%;
+  }
+
+  .lixi {
+    width: 3rem; /* tăng hitbox */
+  }
+
+  .lixi img {
+    border-width: 1.5px;
+  }
+
+  .card {
+    width: 92%;
+    max-width: 320px;
+    border-radius: 12px;
+  }
+
+  .message {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+  .image {
+    width: 120px;
+  }
+
+  .music-toggle {
+    width: 56px;
+    font-size: 24px;
+    padding: 12px;
+  }
+
+  .tiktok-logo img {
+    width: 30px;
+  }
+}
