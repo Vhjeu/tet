@@ -282,73 +282,133 @@ body {
     width: 85%;
     left: 50%;
     transform: translateX(-50%);
+    top: 5%;
   }
 
   .banh-chung {
-    width: 30%;
-    top: 72%;
-    left: 8%;
+    width: 28%;
+    top: 70%;
+    left: 6%;
   }
 
   .lixi {
-    width: 3.5rem; /* dễ bấm hơn */
+    width: 4.2rem; /* dễ bấm hơn */
+    padding: 8px;
+  }
+
+  .lixi img {
+    border-width: 2px;
   }
 
   .card {
-    width: 90%;
-    max-width: 360px;
-    padding: 16px;
+    width: 85%;
+    max-width: 380px;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 12px;
   }
 
   .message {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .image {
+    width: 130px;
+  }
+
+  .music-toggle {
+    width: 65px;
+    padding: 14px;
+    font-size: 28px;
+    bottom: 15px;
+    right: 15px;
   }
 }
 
 /* Mobile nhỏ (iPhone SE, Android nhỏ) */
 @media (max-width: 480px) {
   .cay-dao {
-    width: 95%;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
+    top: 2%;
   }
 
   .banh-chung {
-    width: 35%;
-    top: 78%;
-    left: 5%;
+    width: 32%;
+    top: 76%;
+    left: 4%;
   }
 
   .lixi {
-    width: 3rem; /* tăng hitbox */
+    width: 3.8rem; /* tăng hitbox */
+    padding: 6px;
   }
 
   .lixi img {
-    border-width: 1.5px;
+    border-width: 2px;
+    border-radius: 6px;
   }
 
   .card {
-    width: 92%;
-    max-width: 320px;
-    border-radius: 12px;
+    width: 88%;
+    max-width: 310px;
+    border-radius: 14px;
+    padding: 18px;
+    gap: 10px;
   }
 
   .message {
-    font-size: 1.1rem;
-    line-height: 1.4;
+    font-size: 1rem;
+    line-height: 1.5;
   }
 
   .image {
-    width: 120px;
+    width: 110px;
   }
 
   .music-toggle {
-    width: 56px;
-    font-size: 24px;
-    padding: 12px;
+    width: 60px;
+    font-size: 26px;
+    padding: 13px;
+    bottom: 12px;
+    right: 12px;
   }
 
   .tiktok-logo img {
-    width: 30px;
+    width: 28px;
+  }
+
+  .tiktok-logo {
+    bottom: 12px;
+    left: 12px;
+  }
+}
+
+/* Màn hình cực nhỏ (< 360px) */
+@media (max-width: 360px) {
+  .card {
+    width: 90%;
+    max-width: 290px;
+    padding: 16px;
+  }
+
+  .message {
+    font-size: 0.95rem;
+  }
+
+  .lixi {
+    width: 3.5rem;
+  }
+
+  .image {
+    width: 100px;
+  }
+
+  .music-toggle {
+    width: 55px;
+    font-size: 24px;
+    padding: 12px;
   }
 }
