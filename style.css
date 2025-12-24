@@ -7,7 +7,8 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -122,6 +123,10 @@ body {
 
   .card {
     width: 40%;
+    top: auto;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .banh-chung {
@@ -179,7 +184,12 @@ body {
   }
 
   .card {
-    width: 40%;
+    width: 90%;
+    max-width: 300px;
+    top: auto;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .caudoi-wrapper {
@@ -306,6 +316,10 @@ body {
     padding: 20px;
     border-radius: 15px;
     gap: 12px;
+    top: auto;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .message {
@@ -357,6 +371,10 @@ body {
     border-radius: 14px;
     padding: 18px;
     gap: 10px;
+    top: auto;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .message {
@@ -392,6 +410,10 @@ body {
     width: 90%;
     max-width: 290px;
     padding: 16px;
+    top: auto;
+    bottom: 6%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .message {
